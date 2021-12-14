@@ -1,0 +1,127 @@
+/* geral */
+
+html {
+    background: rgb(155, 147, 147, 0.911);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: rgba(49, 44, 39, 0.925);
+    border: none;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    /*background-position-y: -200px;*/
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: cyan;
+}
+
+
+/* container login */
+
+#login-container {
+    background-color: rgb(247, 247, 247);
+    width: 400px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+input {
+    border-bottom: 20px solid rgb(155, 147, 147, 0.911);
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(49, 44, 39, 0.925);
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: rgb(49, 44, 39, 0.925);
+    background-color: rgb(163, 160, 160);
+    cursor: pointer;
+}
+
+
+/* Redes sociais */
+
+#social-container,
+#social-container p {
+    margin-bottom: 1px;
+}
+
+#social-container {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(247, 247, 247);
+    line-height: 40px;
+    color: turquoise;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(216, 210, 211);
+    transition: 5s;
+}
+
+
+/* Registrar */
+
+#registro-container p {
+    margin-bottom: 10px;
+}
